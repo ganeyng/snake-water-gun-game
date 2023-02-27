@@ -1,0 +1,63 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.75rem;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items:center; */
+}
+
+.water{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.choice{
+    text-align: center;
+    width: 8rem;
+    
+}
+
+.choice button{
+    background-color: white;
+    border: none;
+}
+
+.choice:hover img{
+    transform: translateY(1rem);
+    transition-duration: 1s;
+}
+
+.btn-container{
+    margin: 4rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.result-container{
+    font-family:arial;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.result-container img{
+    width: 11rem;
+}
+
+#result{
+    font-family:arial;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}

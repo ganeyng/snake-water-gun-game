@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake, Water & Gun Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Snake, Water & Gun</h1>
+    <div class="container">
+      <div id="playerDecision" class="result-container">
+        <h3>PLAYER</h3>
+        <img src="img/player.png" name="playerDecision" alt="" />
+      </div>
+
+      <div class="btn-container">
+        <div class="choice">
+          <button id="snake" onclick="game(1)">
+            <img src="img/snake.png" alt="" />
+            <p>Snake</p>
+          </button>
+        </div>
+        <div class="choice water">
+          <button id="water" onclick="game(2)">
+            <img src="img/water.png" alt="" />
+            <p>Water</p>
+          </button>
+        </div>
+        <div class="choice">
+          <button id="gun" onclick="game(3)">
+            <img src="img/gun.png" alt="" />
+            <p>Gun</p>
+          </button>
+        </div>
+      </div>
+
+      <div id="compDecision" class="result-container">
+        <h3>COMPUTER</h3>
+        <img src="img/comp.png" name="computerDecision" alt="" />
+      </div>
+    </div>
+
+    <p id="result"></p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
